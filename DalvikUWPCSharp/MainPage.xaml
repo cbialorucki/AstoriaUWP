@@ -1,0 +1,18 @@
+﻿<Page
+    x:Class="DalvikUWPCSharp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:DalvikUWPCSharp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="bgGrid" Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <TextBox x:Name="textBox" Text="" d:LayoutOverrides="Width, Height" TextAlignment="Center" VerticalAlignment="Top" FontFamily="Segoe UI Symbol" PlaceholderText="&#xE094; Search Apps" FontSize="16" Margin="5,5,5,0" IsSpellCheckEnabled="False" IsTextPredictionEnabled="False"/>
+        <Button x:Name="button" Content="Purge apps folder" Margin="52,0,0,28" VerticalAlignment="Bottom" Click="button_Click"/>
+        <ListBox x:Name="AppListBox" Margin="0,43,0,65" SelectionChanged="AppListBox_SelectionChanged">
+            <ListBoxItem Content="Settings"/>
+        </ListBox>
+        <!--<ScrollViewer FontFamily="Segoe UI Symbol"/>-->
+    </Grid>
+</Page>

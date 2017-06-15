@@ -1,0 +1,5 @@
+D:\Downloads\androidxmldotnet-master\androidxmldotnet-master\AndroidXml\bin\Debug\AndroidXml.dll
+D:\Downloads\androidxmldotnet-master\androidxmldotnet-master\AndroidXml\bin\Debug\AndroidXml.pdb
+D:\Downloads\androidxmldotnet-master\androidxmldotnet-master\AndroidXml\obj\Debug\AndroidXml.csprojResolveAssemblyReference.cache
+D:\Downloads\androidxmldotnet-master\androidxmldotnet-master\AndroidXml\obj\Debug\AndroidXml.dll
+D:\Downloads\androidxmldotnet-master\androidxmldotnet-master\AndroidXml\obj\Debug\AndroidXml.pdb

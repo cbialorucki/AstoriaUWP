@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6ACBA701-5355-4CFC-A41B-BE8F909DB825}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AndroidInteropLib</RootNamespace>
+    <AssemblyName>AndroidInteropLib</AssemblyName>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetPlatformVersion>10.0.10586.0</TargetPlatformVersion>
+    <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
+    <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{A5A43C5B-DE2A-4C0C-9213-0A381AF9435A};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|ARM'">
+    <PlatformTarget>ARM</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\ARM\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|ARM'">
+    <PlatformTarget>ARM</PlatformTarget>
+    <OutputPath>bin\ARM\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>ARM</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE;NETFX_CORE;WINDOWS_UWP</DefineConstants>
+    <Optimize>true</Optimize>
+    <NoWarn>;2008</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="project.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="android\app\ActionBar.cs" />
+    <Compile Include="android\app\Activity.cs" />
+    <Compile Include="android\content\Context.cs" />
+    <Compile Include="android\content\ContextWrapper.cs" />
+    <Compile Include="android\content\Intent.cs" />
+    <Compile Include="android\content\res\AssetManager.cs" />
+    <Compile Include="android\content\res\ColorStateList.cs" />
+    <Compile Include="android\content\res\Resources.cs" />
+    <Compile Include="android\content\res\StringBlock.cs" />
+    <Compile Include="android\content\res\TypedArray.cs" />
+    <Compile Include="android\content\res\XmlBlock.cs" />
+    <Compile Include="android\content\res\XmlResourceParser.cs" />
+    <Compile Include="android\graphics\Color.cs" />
+    <Compile Include="android\support\design\widget\AppBarLayout.cs" />
+    <Compile Include="android\support\design\widget\CoordinatorLayout.cs" />
+    <Compile Include="android\support\design\widget\FloatingActionButton.cs" />
+    <Compile Include="android\support\design\widget\Snackbar.cs" />
+    <Compile Include="android\support\v7\widget\Toolbar.cs" />
+    <Compile Include="android\text\GetChars.cs" />
+    <Compile Include="android\text\Spannable.cs" />
+    <Compile Include="android\text\SpannableString.cs" />
+    <Compile Include="android\text\SpannableStringInternal.cs" />
+    <Compile Include="android\text\Spanned.cs" />
+    <Compile Include="android\text\SpanWatcher.cs" />
+    <Compile Include="android\util\SparseArray.cs" />
+    <Compile Include="android\widget\RelativeLayout.cs" />
+    <Compile Include="android\support\v4\Pools.cs" />
+    <Compile Include="android\util\AttributeSet.cs" />
+    <Compile Include="android\util\ContainerHelpers.cs" />
+    <Compile Include="android\util\DisplayMetrics.cs" />
+    <Compile Include="android\util\LongSparseArray.cs" />
+    <Compile Include="android\util\TypedValue.cs" />
+    <Compile Include="android\util\Xml.cs" />
+    <Compile Include="android\util\XmlPullAttributes.cs" />
+    <Compile Include="android\util\XmlPullAttributesFromResString.cs" />
+    <Compile Include="android\view\ContextThemeWrapper.cs" />
+    <Compile Include="android\view\Display.cs" />
+    <Compile Include="android\view\Gravity.cs" />
+    <Compile Include="android\view\Menu.cs" />
+    <Compile Include="android\view\MenuItem.cs" />
+    <Compile Include="android\view\ViewManager.cs" />
+    <Compile Include="android\view\ViewParent.cs" />
+    <Compile Include="android\view\LayoutInflater.cs" />
+    <Compile Include="android\view\View.cs" />
+    <Compile Include="android\view\ViewGroup.cs" />
+    <Compile Include="android\view\Window.cs" />
+    <Compile Include="android\view\WindowManager.cs" />
+    <Compile Include="android\widget\TextView.cs" />
+    <Compile Include="com\android\_internal\app\ToolbarActionBar.cs" />
+    <Compile Include="com\android\_internal\R.cs" />
+    <Compile Include="com\android\_internal\util\ArrayUtils.cs" />
+    <Compile Include="com\android\_internal\util\GrowingArrayUtils.cs" />
+    <Compile Include="com\android\_internal\util\XmlUtils.cs" />
+    <Compile Include="com\android\_internal\widget\DecorToolbar.cs" />
+    <Compile Include="dalvik\system\VMRuntime.cs" />
+    <Compile Include="java\lang\CharSequence.cs" />
+    <Compile Include="java\lang\CloneNotSupportedException.cs" />
+    <Compile Include="libcore\util\EmptyArray.cs" />
+    <Compile Include="libs\androidfw\ResourceTypes.cs" />
+    <Compile Include="org\xmlpull\v1\XmlPullParser.cs" />
+    <Compile Include="org\xmlpull\v1\XmlPullParserException.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ticomware\interop\NullView.cs" />
+    <Compile Include="ticomware\interop\ResXMLParser.cs" />
+    <Compile Include="ticomware\interop\StringCharSequence.cs" />
+    <Compile Include="ticomware\interop\Util.cs" />
+    <EmbeddedResource Include="Properties\AndroidInteropLib.rd.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Themes\Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Square150x150Logo.scale-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AndroidXml\AndroidXml.csproj">
+      <Project>{1dc0cf19-d6e2-43a3-9c9d-bd0dbcc59038}</Project>
+      <Name>AndroidXml</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
+    <VisualStudioVersion>14.0</VisualStudioVersion>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\WindowsXaml\v$(VisualStudioVersion)\Microsoft.Windows.UI.Xaml.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

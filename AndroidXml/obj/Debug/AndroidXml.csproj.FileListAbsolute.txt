@@ -1,0 +1,16 @@
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\bin\Debug\AndroidXml.dll
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\bin\Debug\AndroidXml.pdb
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\bin\Debug\AndroidXml.pri
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\AndroidXml.dll
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\AndroidXml.pdb
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\priconfig.xml
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\priconfig.xml.intermediate
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\layout.resfiles
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\layout.resfiles.intermediate
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\resources.resfiles
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\resources.resfiles.intermediate
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\pri.resfiles
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\pri.resfiles.intermediate
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\qualifiers.txt
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\qualifiers.txt.intermediate
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\obj\Debug\MultipleQualifiersPerDimensionFound.txt

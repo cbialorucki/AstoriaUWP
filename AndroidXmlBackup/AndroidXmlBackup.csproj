@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6D894EAC-1496-4A4C-B382-FE6433D08081}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AndroidXml</RootNamespace>
+    <AssemblyName>AndroidXml</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>true</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>qm.snk</AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AndroidXmlReader.cs" />
+    <Compile Include="EmbeddedResources.cs" />
+    <Compile Include="PublicValuesReader.cs" />
+    <Compile Include="Utils\BoundedStream.cs" />
+    <Compile Include="ResReader.cs" />
+    <Compile Include="ResWriter.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Res\ResResourceMap.cs" />
+    <Compile Include="Res\ResStringPool.cs" />
+    <Compile Include="Res\ResTable_entry.cs" />
+    <Compile Include="Res\ResTable_map.cs" />
+    <Compile Include="Res\ResTable_map_entry.cs" />
+    <Compile Include="Res\ResXMLParser.cs" />
+    <Compile Include="Res\ResXMLTree_startelement.cs" />
+    <Compile Include="Utils\Helper.cs" />
+    <Compile Include="Res\ResStringPool_header.cs" />
+    <Compile Include="Res\ResStringPool_ref.cs" />
+    <Compile Include="Res\ResStringPool_span.cs" />
+    <Compile Include="Res\ResTable_config.cs" />
+    <Compile Include="Res\ResTable_header.cs" />
+    <Compile Include="Res\ResTable_package.cs" />
+    <Compile Include="Res\ResTable_ref.cs" />
+    <Compile Include="Res\ResTable_type.cs" />
+    <Compile Include="Res\ResTable_typeSpec.cs" />
+    <Compile Include="Res\ResXMLTree_attrExt.cs" />
+    <Compile Include="Res\ResXMLTree_attribute.cs" />
+    <Compile Include="Res\ResXMLTree_cdataExt.cs" />
+    <Compile Include="Res\ResXMLTree_endElementExt.cs" />
+    <Compile Include="Res\ResXMLTree_header.cs" />
+    <Compile Include="Res\ResXMLTree_namespaceExt.cs" />
+    <Compile Include="Res\ResXMLTree_node.cs" />
+    <Compile Include="Res\Res_value.cs" />
+    <Compile Include="Res\ResChunk_header.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Values\NOTICE.htm" />
+    <EmbeddedResource Include="Values\public.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="qm.snk" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

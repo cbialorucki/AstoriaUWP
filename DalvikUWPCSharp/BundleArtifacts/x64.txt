@@ -1,0 +1,2 @@
+MainPackage=D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\DalvikUWPCSharp\bin\x64\Debug\DalvikUWPCSharp_0.1.0.0_x64_Debug.appx
+SymbolPackage=D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\DalvikUWPCSharp\AppPackages\DalvikUWPCSharp_0.1.0.0_Debug_Test\DalvikUWPCSharp_0.1.0.0_x64_Debug.appxsym

@@ -1,0 +1,5 @@
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidUILib\AndroidInteropLib.csproj;x86
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\AndroidXml.csproj;x86
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\AndroidXml\AndroidXml.csproj;x86
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\DalvikUWPCSharp\DalvikUWPCSharp.csproj;x86
+D:\Documents\Visual Studio 2015\Projects\DalvikUWPCSharp\dex.net\dex.net.csproj;x86
