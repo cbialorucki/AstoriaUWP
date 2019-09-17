@@ -1,7 +1,7 @@
 # Astoria for Universal Windows Platform
 An APK interpreter for the Universal Windows Platform. This program attempts to interpret an Android .APK file and runs it inside a UWP wrapper.
 
-Note: This project was created as a proof-of-concept over a short amount of time. The code is relatively low quality. It exists for demonstration and educational purposes. Feel free to fork this project!
+Note: This project was created as a proof-of-concept over a short amount of time. The code may not be perfect. It exists for demonstration and educational purposes. Feel free to fork this project!
 
 This project uses code from the following projects:
 
